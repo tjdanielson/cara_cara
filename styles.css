@@ -125,3 +125,9 @@
 .about-position-img2 img {
     width: 15em
 }
+
+.product-card {
+    display: grid;
+
+}
+
