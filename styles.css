@@ -126,8 +126,41 @@
     width: 15em
 }
 
-.product-card {
+.product_card {
     display: grid;
-
+    object-fit: cover;
+    width: 30em;
+    column-gap: 0px;
+    row-gap: 0px;
 }
 
+.product-price {
+    grid-column: 1 / span 1;
+    border-bottom: black;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    display: flex;
+    list-style-type: none;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.cart-flex {
+    margin: 1rem;
+    display: flex;
+    list-style-type: none;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.cart-flex button {
+    background-color: rgb(191, 118, 49);
+    color: white;
+}
+
+/* .product-position {
+    
+} */
+/* .product_card img {
+    width: 30em;
+} */
