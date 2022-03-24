@@ -37,34 +37,32 @@
     display: grid; 
     list-style-type: none;
     align-items: center;
-    height: 50%;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0), black)
-}
-
-.banner-image img {
-    justify-content: center;
-    background-size: cover;
-    max-width: 75%;
-    max-height: 100%;
-    margin-left: 175px;
+    height: 30vh;
+    background-image: linear-gradient(90deg, black 20%, rgba(0, 0, 0, 0), black 70%),
+    url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    object-fit: cover;
+    position: relative;
+    background-position: center;
+    background-size: contain;
 }
 
 .banner-image h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
-    color: white
+    color: white;
+    font-size: large
 }
 
 .top-words {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 16px;
+    left: 250px;
 }
 
 .bottom-words {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 16px;
+    right: 250px;
 }
 
 .font {
@@ -114,6 +112,9 @@
     display: grid;
     grid-row-start: 2;
     grid-row-end: 4;
-    width: 10%;
-    max-height: 100%;
+}
+
+.about-position-img1 img {
+    height: 50px;
+    width: 50px;
 }
